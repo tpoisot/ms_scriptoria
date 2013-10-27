@@ -5,7 +5,5 @@ manuscripts written with distributed revision control systems.
 
 Code
 ----
-The code for the main project is at:
-
-    https://github.com/PhDP/Scriptoria
+The main project is hosted at: https://github.com/PhDP/Scriptoria.
 
