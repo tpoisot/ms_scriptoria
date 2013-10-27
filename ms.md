@@ -10,7 +10,17 @@
 
 ## Motivation
 
-* How software development works and why it offers a better and more open system.
+The basic process of writing a scientific documents hasn't changed much in the
+last few hundred years. A document is written and submitted to a small
+committee that will evaluate its content and make suggestions. Unfortunately,
+the process is slow and done behind closed doors. There are faster, and more
+open, ways to develop and evaluate documents. Modern software engineers rely on
+a sophisticated, and well studied, methodology for developing documents (source
+code) and rigorously review and improve them. Software engineers have to write
+thousands of lines of code in coordination, detect errors in the code (bugs),
+and fix them. This process is essentially the same as the scientific process.
+
+* Discuss revision control & bug tracking.
 * Git in science [@ram2013].
 * Git/Mercurial/Bazaar are decentralizied (which is good)...
 * ...what we need is a tool to track the repositories.
