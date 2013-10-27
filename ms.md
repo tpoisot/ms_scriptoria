@@ -18,9 +18,9 @@
 
 ## Box 1: Questions/Answers
 
-A few questions and answers for people with little knowledge of git, github, et
-al. If we refer to actual software, it should work on major platforms (Linux,
-Windows, OSX I guess...).
+* What are git, mercurial, bazaar?
+* Where can I store repositories?
+* What is a clone, a fork?
 
 ## Description
 
@@ -45,9 +45,9 @@ the repository is cloned or forked. **type** is one of: 'article', 'thesis',
 preparation'.  If this entry is not set, it will default to 'in preparation',
 unless a doi is provided, in which case it will always be set to 'published'.
 **title** and **abstract** are also mandatory and each are represented by a
-single string. **author* is an array of maps, i.e.: it must be enclosed by
-squared brackets and contain information on each author within brackets. For
-each author, the **first name**, ** last name**, and **email** must be
+single string. **authors** is an array of maps, i.e.: it must be enclosed by
+squared brackets and contains information on each author within brackets. For
+each author, the **first name**, **last name**, and **email** entries must be
 provided. Scriptoria.info has a formal description of the JSON format along
 with a validator: URL (a simple tool to write scriptoria.json files perhaps?).
 
@@ -73,8 +73,8 @@ development of new ideas.",
     "first name":"Karthik",
     "last name":"Ram",
     "email":"karthik.ram@berkeley.edu"
-  }]
-  "doi": "doi:10.1186/1751-0473-8-7",
+  }],
+  "doi": "doi:10.1186/1751-0473-8-7"
 }
 ```
 
