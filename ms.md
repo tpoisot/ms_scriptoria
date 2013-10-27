@@ -82,7 +82,10 @@ development of new ideas.",
   "authors": [{
     "first name":"Karthik",
     "last name":"Ram",
-    "email":"karthik.ram@berkeley.edu"
+    "email":"karthik.ram@berkeley.edu",
+    "orcid":"0000-0002-0233-1757",
+    "first": True,
+    "corresponding": True
   }],
   "doi": "doi:10.1186/1751-0473-8-7"
 }
